@@ -12,9 +12,9 @@ Skype: kkman3651878
 About
 ---------
 Hardware and System Bring Up   
-Firmware Development (Embedded 8051, Renesas RL78, STM32 Fx, CYUSB3014, EJ511, KL520)    
+Firmware Development     
 Software Development    
-FPGA / Real chip Function Verification  (Altera FPGA)    
+FPGA / Real chip Function Verification    
 
 Education
 ---------
@@ -33,12 +33,12 @@ Logic Analyzer, Oscilloscope, Vectorscope
 Knowledge
 ---------
 
-Embedded System,    
+Embedded System (Embedded 8051, Renesas RL78, STM32 Fx, CYUSB3014, EJ511, KL520)   
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
 CMOS Sensor DVP, HD/SDTV Bit-Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
 Basic Image Processing,    
-Camera Motor Driver
+Camera Motor Driver    
 
 Experience 
 ---------
