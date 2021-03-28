@@ -33,7 +33,9 @@ Logic Analyzer, Oscilloscope, Vectorscope
 Knowledge
 ---------
 
-Embedded System (Embedded 8051, Renesas RL78, STM32 Fx, CYUSB3014, EJ511, KL520)   
+Embedded 8051, Renesas RL78, STM32 Fx,  CYUSB3014, EJ511, KL520,
+IT6604, IT6801, IT66121, GV7601, TVP5150, 
+MDIN340, NDIN270, MDIN325A, PR2000, DS90UB913/914  
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
 CMOS Sensor DVP, HD/SDTV Bit-Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
