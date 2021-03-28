@@ -12,9 +12,9 @@ Skype: kkman3651878
 About
 ---------
 Hardware and System Bring Up   
-Firmware Development   
-Software Development   
-FPGA / Real chip Function Verification   
+Firmware Development (Embedded 8051, STM32 Fx, EJ511,KL520, CYUSB3014)
+Software Development (C,  C# .NET, QT, MATLAB, Python)
+FPGA / Real chip Function Verification  (Altera FPGA)
 
 Education
 ---------
@@ -44,12 +44,12 @@ Experience
 ---------
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 
-Develop EVB firmware and GUI form using C# .NET and WIN32 API DLL    
-Develop embedded 8051 peripheral drivers, bootloader/bootrom and application firmware    
+Develop develop windows application using C# .NET and WIN32 API DLL    
+Develop EVB embedded 8051 peripheral drivers, bootloader/bootrom and application firmware    
 Bring up daughter boards and modules    
 FPGA / Real chip function verification   
 
-- AVS761x/AVS715x EVB Tool    
+- AVS761x/AVS715x windows application    
     USB-to-SPI/I2C, UART-to-SPI/I2C    
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
