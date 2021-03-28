@@ -12,9 +12,9 @@ Skype: kkman3651878
 About
 ---------
 Hardware and System Bring Up   
-Firmware Development (Embedded 8051, STM32 Fx, EJ511,KL520, CYUSB3014)
-Software Development (C,  C# .NET, QT, MATLAB, Python)
-FPGA / Real chip Function Verification  (Altera FPGA)
+Firmware Development (Embedded 8051, Renesas RL78, STM32 Fx, CYUSB3014, EJ511, KL520)    
+Software Development    
+FPGA / Real chip Function Verification  (Altera FPGA)    
 
 Education
 ---------
@@ -26,7 +26,7 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 
 Skills & Tool
 ---------
-C,  C# .NET, QT, RTL Verilog     
+C,  C# .NET, QT, Python, RTL Verilog     
 Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
 Logic Analyzer, Oscilloscope, Vectorscope     
 
@@ -63,9 +63,6 @@ FPGA / Real chip function verification
 - General-Purpose MCU    
   Renesas Electronics: R5F1007E, R5F100GG    
   STMicroelectronics: STM32F103, STM32F030    
-- Altera FPGA EVB Platform Data Transport    
-  Implement USB transport using LibUSB-win32 and QT5    
-- HDMI EDID Parser Console     
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
