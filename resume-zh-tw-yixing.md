@@ -58,7 +58,7 @@ Develop chip built-in MCU peripheral drivers, bootloader/bootrom and application
 Bring up daughter boards and modules    
 FPGA / Real chip function verification   
 
-- AVS761x/AVS715x windows application    
+- Develop Windows Application for AVS761x/AVS715x EVB     
     USB-to-SPI/I2C, UART-to-SPI/I2C    
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
