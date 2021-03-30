@@ -26,7 +26,7 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 
 Skills & Tool
 ---------
-C,  C# .NET, QT, Python, RTL Verilog     
+C,  C# .NET, QT, RTL Verilog     
 Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
 Logic Analyzer, Oscilloscope, Vectorscope     
 
@@ -44,8 +44,8 @@ Experience
 ---------
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 
-Develop develop windows application using C# .NET and WIN32 API DLL    
-Develop EVB embedded 8051 peripheral drivers, bootloader/bootrom and application firmware    
+Develop develop windows application using C# .NET and WIN32 API DLL for EVB.    
+Develop chip embedded 8051 peripheral drivers, bootloader/bootrom and application firmware    
 Bring up daughter boards and modules    
 FPGA / Real chip function verification   
 
