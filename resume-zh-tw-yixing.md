@@ -27,7 +27,7 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 Knowledge
 ---------
 
-Embedded System  
+Embedded System, CMSIS-RTOS  
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
 CMOS Sensor DVP, HD/SDTV Bit-Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
@@ -37,7 +37,7 @@ Camera Motor Driver
 Skills & Tool
 ---------
 
-C,  C# .NET, QT, CMSIS-RTOS, RTL Verilog     
+C,  C# .NET, QT, RTL Verilog     
 Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
 Logic Analyzer, Oscilloscope, Vectorscope   
 
