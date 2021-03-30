@@ -24,12 +24,45 @@ MSc, Power System, 中原大學電機工程研究所
 2004 - 2008    
 BSc, Electrical Engineering, 中原大學電機工程學系     
 
+Knowledge
+---------
+
+Embedded System  
+Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
+USB Video/Audio/HID Class,    
+CMOS Sensor DVP, HD/SDTV Bit-Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
+Basic Image Processing,    
+Camera Motor Driver    
+
+Skills & Tool
+---------
+
+C,  C# .NET, QT, CMSIS-RTOS, RTL Verilog     
+Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
+Logic Analyzer, Oscilloscope, Vectorscope   
+
+ICs
+---------
+
+AVS7610, AVS7150 (Fisheye Correction),
+CYUSB3014, EJ511 (USB Controller)
+IT6801/6604/66121 (HDMI Rx/Tx), 
+GV7601/GV7600 (SDI Rx/Tx), 
+TVP5150 (NTSC/PAL Video Decoder), 
+MDIN340/325A/270 (Video Display Processor), 
+PR2000 (AHD Video Decoder), 
+DS90UB913/4 (LVDS Tx/Rx),
+WM8960 (Audio Codec),
+R5F1007E, R5F100GG, STM32F103, STM32F030,
+KL520 (AI Chip)
+
 Experience 
 ---------
+
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 
-Develop develop windows application using C# .NET and WIN32 API DLL for EVB.    
-Develop chip built-in MCU peripheral drivers, bootloader/bootrom and application firmware.    
+Develop develop windows application using C# .NET and WIN32 API DLL for Avisonic EVB.    
+Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and application firmware.    
 Bring up daughter boards and modules.    
 FPGA / Real chip function verification   
 
@@ -66,29 +99,3 @@ Lens Device Driver (Zoom/Focus/Iris/Shutter)
   [2] C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, “Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011. (SCI; ISSN:0957-4174)    
   [3] C.-Y. Lee and **Y.-X. Shen**,“Feature Analysis of Power Quality Disturbance in Smart Grid Using S- transform and TT-transform,”International Review of Electrical Engineering, Vol. 7 , No. 2 , 2012. (SCI; ISSN:1827-6660)    
 
-Knowledge
----------
-
-Embedded System  
-Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
-USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SDTV Bit-Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
-Basic Image Processing,    
-Camera Motor Driver    
-
-Skills & Tool
----------
-
-C,  C# .NET, QT, CMSIS-RTOS, RTL Verilog     
-Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
-Logic Analyzer, Oscilloscope, Vectorscope   
-
-Chip
----------
-
-Fisheye Correction Chip: AVS7610, AVS7150   
-USB Controller Chip: CYUSB3014, EJ511  
-Video Tx/Rx Chip: IT6801/6604/66121, GV7601, TVP5150, MDIN340/325A/270, PR2000, DS90UB913/4  
-Audio Chip: WM8960  
-General-Purpose MCU Chip: R5F1007E, R5F100GG, STM32F103, STM32F030  
-AI Chip: KL520  
