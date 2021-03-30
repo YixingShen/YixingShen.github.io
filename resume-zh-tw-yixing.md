@@ -33,7 +33,7 @@ Develop chip built-in MCU peripheral drivers, bootloader/bootrom and application
 Bring up daughter boards and modules.    
 FPGA / Real chip function verification   
 
-- Develop Windows Application for AVS761x/AVS715x EVB     
+- Develop Windows Application for AVS7610/AVS7150 EVB     
     USB-to-SPI/I2C, UART-to-SPI/I2C    
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
@@ -86,9 +86,9 @@ Logic Analyzer, Oscilloscope, Vectorscope
 Chip
 ---------
 
-Fisheye Correction Chip: AVS761x, AVS715x   
+Fisheye Correction Chip: AVS7610, AVS7150   
 USB Controller Chip: CYUSB3014, EJ511  
-Video Tx/Rx Chip: IT6801, IT6640, IT66121, GV7601, TVP5150, MDIN340, MDIN325A, MDIN270, PR2000, DS90UB91x  
+Video Tx/Rx Chip: IT6801/6640/66121, GV7601, TVP5150, MDIN340/325A/270, PR2000, DS90UB913/4  
 Audio Chip: WM8960  
 General-Purpose MCU Chip: R5F1007E, R5F100GG, STM32F103, STM32F030  
 AI Chip: KL520  
