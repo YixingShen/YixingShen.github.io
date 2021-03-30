@@ -40,12 +40,21 @@ CMOS Sensor DVP, HD/SDTV Bit-Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI
 Basic Image Processing,    
 Camera Motor Driver    
 
+Chip
+---------
+Fisheye Correction Chip: AVS761x, AVS715x   
+USB Controller Chip: CYUSB3014, EJ511  
+Video Tx/Rx Chip: IT6801, IT6640, IT66121, GV7601, TVP5150,MDIN340, MDIN325A, MDIN270, PR2000, DS90UB91x  
+Audio Chip: WM8960  
+General-Purpose MCU Chip: R5F1007E, R5F100GG, STM32F103, STM32F030  
+AI Chip: KL520  
+
 Experience 
 ---------
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 
 Develop develop windows application using C# .NET and WIN32 API DLL for EVB.    
-Develop chip embedded 8051 peripheral drivers, bootloader/bootrom and application firmware    
+Develop chip built-in MCU peripheral drivers, bootloader/bootrom and application firmware    
 Bring up daughter boards and modules    
 FPGA / Real chip function verification   
 
@@ -68,6 +77,7 @@ FPGA / Real chip function verification
 
 Developed and maintained lens controller firmware and calibration for MQX RTOS Platform.    
 Lens Device Driver (Zoom/Focus/Iris/Shutter)    
+
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
 
