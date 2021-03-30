@@ -79,7 +79,7 @@ Camera Motor Driver
 Skills & Tool
 ---------
 
-C,  C# .NET, QT, RTL Verilog     
+C,  C# .NET, QT, CMSIS-RTOS, RTL Verilog     
 Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
 Logic Analyzer, Oscilloscope, Vectorscope   
 
