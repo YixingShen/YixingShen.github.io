@@ -30,8 +30,7 @@ Knowledge
 Embedded System, CMSIS-RTOS  
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SDTV Bit-Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, LVDS,   
-Basic Image Processing,    
+CMOS Sensor DVP, HD/SDTV Parallel Interface, EIA/CEA-861, CVBS, HDMI,       
 Camera Motor Driver    
 
 Skills & Tool
@@ -47,12 +46,9 @@ ICs
 AVS7610, AVS7150 (義晶, Fisheye Correction),
 CYUSB3014, EJ511 (USB Controller),
 MDIN340/325A/270 (Video Display Processor), 
-IT6801/6604/66121 (HDMI), 
-GV7601/7600 (SDI), 
-TVP5150 (NTSC/PAL Video Decoder), 
-PR2000 (AHD Video Decoder), 
-DS90UB913/914 (LVDS),
-WM8960 (Audio Codec),
+IT6801/6604/66121 (HDMI), TC358743XBG (HDMI to MIPI CS-2)
+GV7601/7600 (SDI),  TVP5150 (NTSC/PAL Video Decoder), PR2000 (AHD Video Decoder), 
+DS90UB913/914 (LVDS), WM8960 (Audio Codec),
 R5F1007E, R5F100GG, STM32F103, STM32F030,
 KL520 (AI Chip)
 
