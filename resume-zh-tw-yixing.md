@@ -78,8 +78,7 @@ FPGA / Real chip function verification
     HDMI/SDI/CVBS Receiver with USB Video Output    
     HDMI 1x4 Video Wall    
 - General-Purpose MCU    
-  Renesas Electronics: R5F1007E, R5F100GG    
-  STMicroelectronics: STM32F103, STM32F030    
+  R5F1007E, R5F100GG, STM32F103, STM32F030    
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
