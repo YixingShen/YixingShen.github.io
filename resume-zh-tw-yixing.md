@@ -59,8 +59,8 @@ Experience
 
 Develop GUI and console application using C# .NET and WIN32 API DLL for Avisonic EVB.    
 Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and application firmware.    
-Bring up daughter boards and modules.    
-FPGA / Real chip function verification   
+Bring up daughter boards and modules.  
+FPGA and IC function verification    
 
 - Develop Desktop Console/Windows Application for AVS7610/AVS7150 EVB     
     USB-to-SPI/I2C, UART-to-SPI/I2C    
@@ -73,8 +73,6 @@ FPGA / Real chip function verification
     Camera Module    
     HDMI/SDI/CVBS Receiver with USB Video Output    
     HDMI 1x4 Video Wall    
-- General-Purpose MCU    
-  R5F1007E, R5F100GG, STM32F103, STM32F030    
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
