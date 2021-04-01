@@ -59,7 +59,7 @@ Experience
 
 Develop GUI and console application using C# .NET and WIN32 API DLL for Avisonic EVB.    
 Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and application firmware.    
-Bring up and Develop Demo Board MCU firmware  
+Bring up and develop demo board MCU firmware  
 FPGA and IC function verification    
 
 - Develop Desktop Console/Windows Application for AVS7610/AVS7150 EVB     
