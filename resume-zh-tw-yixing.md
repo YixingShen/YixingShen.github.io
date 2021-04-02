@@ -71,7 +71,7 @@ FPGA and IC function verification
 - Bootloader/bootrom  
     I2C/UART to Register/Flash/I2C Bridge  
     Boot from Flash/I2C/UART  
-- - Demo board
+- Demo board
     LVDS SerDes, HDMI Transmitter/Receiver,   
     HDMI Up/Down to LVDS/MIPI CSI-2, USB HID/CDC/UVC XU to I2C/SPI        
     Fisheye Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output        
