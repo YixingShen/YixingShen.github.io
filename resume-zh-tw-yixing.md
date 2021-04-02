@@ -65,7 +65,7 @@ FPGA and IC function verification
 
 - GUI  and console application    
     USB HID/CDC/UVC XU to I2C/SPI   
-    USB Camera Previewer and Sample Grabber using DirectShow
+    USB Camera Viewer and Sample Grabber using DirectShow
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
     ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
