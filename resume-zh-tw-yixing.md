@@ -47,7 +47,7 @@ ICs
 AVS7610, AVS7150 (義晶, Fisheye Correction),  
 CYUSB3014, EJ511 (USB Controller),  
 MDIN340/325A/270 (Video Display Processor),   
-IT6801/6604/66121 (HDMI), TC358743XBG (HDMI to MIPI CSI-2)  
+IT6801/6604/66121 (HDMI), TC358743XBG (HDMI to MIPI CS-2 Bridge)  
 GV7601/7600 (SDI), TVP5150 (CVBS Video Decoder), PR2000 (Analog HD Video Decoder),   
 DS90UB913/914 (LVDS), WM8960 (Audio Codec),  
 R5F1007E, R5F100GG, STM32F103, STM32F030,  
@@ -72,6 +72,19 @@ FPGA and IC function verification
     LVDS SerDes, HDMI Transmitter/Receiver,   
     HDMI Up/Down to LVDS/MIPI CSI-2 Display, USB HID/CDC/UVC XU to I2C/SPI        
     Fisheye Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output        
+
+CYUSB3014 (USB Controller, RTOS, GNU ARM): 
+  修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB讀取I2C/SPI裝置和擷取影像輸入(DirectShow)
+MDIN340/325A/270 (Video Display Processor, Non-OS, MDK-ARM): 
+  從MDK-ARM移植到Renesas MCU, 修改韌體流程
+IT6801/6604/66121 (HDMI, Non-OS, Keil C51): 
+  從Keil C51移植到Renesas MCU, 修改韌體流程, 修改EDID
+EJ511 (USB Controller, Non-OS, Keil C51):
+  修改韌體支援MJPG/YUY2各種解析度組合,修改I2C控制外部裝置流程和客製化設定
+PR2000 (Analog HD Video Decoder, Non-OS, MDK-ARM): 
+  修改韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART或I2C介面調整AVS7610設定
+KL520 (AI Chip, RTOS, MDK-ARM):
+  修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
