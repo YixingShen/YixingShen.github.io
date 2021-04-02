@@ -75,7 +75,7 @@ FPGA and IC function verification
 - Demo board
     LVDS SerDes, HDMI Transmitter/Receiver,   
     HDMI Up/Down to LVDS/MIPI CSI-2, USB HID/CDC/UVC XU to I2C/SPI        
-    Fisheye Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output        
+    Fisheye Camera Module, HDMI/SDI/CVBS to USB Video/Audio       
 
 CYUSB3014 (USB Controller, RTOS, GNU ARM): 
   修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)
