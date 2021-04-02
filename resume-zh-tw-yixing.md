@@ -30,7 +30,7 @@ Knowledge
 Embedded System, CMSIS-RTOS  
 I2C, SPI, UART, I2S,    
 USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
+CMOS Sensor DVP, CVBS, HDMI,    
 ITU BT656/BT601/BT1120, EIA/CEA-861,    
 Camera Motor Driver    
 
@@ -38,7 +38,7 @@ Skills & Tool
 ---------
 
 C,  C# .NET, QT, RTL Verilog     
-Git, VS Code, Keil (MDK, PK51),  Renesas CS+, Intel (Altera) Quartus    
+Git, VS Code, Keil,  Renesas CS+, Intel (Altera) Quartus    
 Logic Analyzer, Oscilloscope, Vectorscope   
 
 ICs
@@ -63,30 +63,25 @@ Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and ap
 Bring up and develop demo board MCU firmware  
 FPGA and IC function verification    
 
-- Develop Desktop Console/Windows Application for AVS7610/AVS7150 EVB     
+- GUI  and console application    
     USB-to-SPI/I2C, UART-to-SPI/I2C    
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
     ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
-- Daughter Board    
-    LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    
-- Demo Board    
-    Camera Module    
-    HDMI/SDI/CVBS Receiver with USB Video Output    
-    HDMI 1x4 Video Wall    
+- Demo board
+    LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI        
+    Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output    
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
 Developed and maintained lens controller firmware and calibration for MQX RTOS Platform.    
-Lens Device Driver (Zoom/Focus/Iris/Shutter)    
-
+Lens device driver (Zoom/Focus/Iris/Shutter)    
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
 
 2008/09 - 2010/07 中原大學電機研究所    
-
 - 應用人工智慧和訊號處理於電力系統    
-  以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1][3]    
+  以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1][3]   
   運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
 - 期刊論文    
   [1] C.-Y. Lee and **Y.-X. Shen**, “Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011. (SCI; ISSN:0885-8977)    
