@@ -27,7 +27,7 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 Knowledge
 ---------
 
-Embedded System, CMSIS-RTOS  
+Embedded System, RTOS  
 I2C, SPI, UART, I2S,    
 USB Video/Audio/HID Class,    
 CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
