@@ -63,15 +63,15 @@ Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and ap
 Bring up and develop demo board MCU firmware  
 FPGA and IC function verification    
 
-- Bootloader/bootrom  
-    I2C/UART to Register/Flash/I2C Bridge  
-    Boot from Flash/I2C/UART  
 - GUI  and console application    
     USB HID/CDC/UVC XU to I2C/SPI, DirectShow Sample Grabber     
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
     ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
-- Demo board
+- Bootloader/bootrom  
+    I2C/UART to Register/Flash/I2C Bridge  
+    Boot from Flash/I2C/UART  
+- - Demo board
     LVDS SerDes, HDMI Transmitter/Receiver,   
     HDMI Up/Down to LVDS/MIPI CSI-2, USB HID/CDC/UVC XU to I2C/SPI        
     Fisheye Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output        
