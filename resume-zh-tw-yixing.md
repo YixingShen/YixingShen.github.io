@@ -30,7 +30,7 @@ Knowledge
 Embedded System, CMSIS-RTOS  
 I2C, SPI, UART, I2S,    
 USB Video/Audio/HID Class,    
-CMOS Sensor DVP, CVBS, HDMI,    
+CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
 ITU BT656/BT601/BT1120, EIA/CEA-861,    
 Camera Motor Driver    
 
@@ -47,7 +47,7 @@ ICs
 AVS7610, AVS7150 (義晶, Fisheye Correction),  
 CYUSB3014, EJ511 (USB Controller),  
 MDIN340/325A/270 (Video Display Processor),   
-IT6801/6604/66121 (HDMI), TC358743XBG (HDMI to MIPI CS-2)  
+IT6801/6604/66121 (HDMI), TC358743XBG (HDMI to MIPI CSI-2)  
 GV7601/7600 (SDI), TVP5150 (CVBS Video Decoder), PR2000 (Analog HD Video Decoder),   
 DS90UB913/914 (LVDS), WM8960 (Audio Codec),  
 R5F1007E, R5F100GG, STM32F103, STM32F030,  
@@ -69,13 +69,15 @@ FPGA and IC function verification
     Generate Initial Register Script for Different Scenarios Use    
     ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 - Demo board
-    LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI        
-    Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output    
+    LVDS SerDes, HDMI Transmitter/Receiver,   
+    HDMI Up/Down to LVDS/MIPI CSI-2 Display, USB HID/CDC/UVC XU to I2C/SPI        
+    Fisheye Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output        
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
 Developed and maintained lens controller firmware and calibration for MQX RTOS Platform.    
 Lens device driver (Zoom/Focus/Iris/Shutter)    
+
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
 
