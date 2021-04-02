@@ -70,11 +70,11 @@ FPGA and IC function verification
     ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 - Demo board
     LVDS SerDes, HDMI Transmitter/Receiver,   
-    HDMI Up/Down to LVDS/MIPI CSI-2 Display, USB HID/CDC/UVC XU to I2C/SPI        
+    HDMI Up/Down to LVDS/MIPI CSI-2, USB HID/CDC/UVC XU to I2C/SPI        
     Fisheye Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output        
 
 CYUSB3014 (USB Controller, RTOS, GNU ARM): 
-  修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB讀取I2C/SPI裝置和擷取影像輸入(DirectShow)
+  修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB讀取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)
 MDIN340/325A/270 (Video Display Processor, Non-OS, MDK-ARM): 
   從MDK-ARM移植到Renesas MCU, 修改韌體流程
 IT6801/6604/66121 (HDMI, Non-OS, Keil C51): 
