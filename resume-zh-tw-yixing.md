@@ -63,6 +63,9 @@ Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and ap
 Bring up and develop demo board MCU firmware  
 FPGA and IC function verification    
 
+- Bootloader/bootrom  
+    I2C/UART to Register/Flash/I2C Bridge  
+    Boot from Flash/I2C/UART  
 - GUI  and console application    
     USB HID/CDC/UVC XU to I2C/SPI, DirectShow Sample Grabber     
     Register/DRAM/Flash Write/Read Operations    
@@ -74,7 +77,7 @@ FPGA and IC function verification
     Fisheye Camera Module, HDMI/SDI/CVBS Receiver with USB Video Output        
 
 CYUSB3014 (USB Controller, RTOS, GNU ARM): 
-  修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB讀取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)
+  修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)
 MDIN340/325A/270 (Video Display Processor, Non-OS, MDK-ARM): 
   從MDK-ARM移植到Renesas MCU, 修改韌體流程
 IT6801/6604/66121 (HDMI, Non-OS, Keil C51): 
