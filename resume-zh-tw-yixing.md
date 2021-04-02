@@ -14,7 +14,7 @@ About
 Hardware and System Bring Up   
 Firmware Development     
 Software Development    
-FPGA / Real chip Function Verification    
+FPGA and IC Function Verification    
 
 Education
 ---------
@@ -28,16 +28,17 @@ Knowledge
 ---------
 
 Embedded System, CMSIS-RTOS  
-Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
+I2C, SPI, UART, I2S,    
 USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SDTV Parallel Interface, ITU BT656/BT601/BT1120, EIA/CEA-861, CVBS, HDMI,       
+CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
+ITU BT656/BT601/BT1120, EIA/CEA-861,    
 Camera Motor Driver    
 
 Skills & Tool
 ---------
 
 C,  C# .NET, QT, RTL Verilog     
-Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
+Git, VS Code, Keil (MDK, PK51),  Renesas CS+, Intel (Altera) Quartus    
 Logic Analyzer, Oscilloscope, Vectorscope   
 
 ICs
