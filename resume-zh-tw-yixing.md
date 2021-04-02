@@ -47,7 +47,7 @@ ICs
 AVS7610, AVS7150 (義晶, Fisheye Correction),  
 CYUSB3014, EJ511 (USB Controller),  
 MDIN340/325A/270 (Video Display Processor),   
-IT6801/6604/66121 (HDMI), TC358743XBG (HDMI to MIPI CS-2 Bridge)  
+IT6801/6604/66121 (HDMI), TC358743XBG (HDMI Bridge to MIPI CS-2 )  
 GV7601/7600 (SDI), TVP5150 (CVBS Video Decoder), PR2000 (Analog HD Video Decoder),   
 DS90UB913/914 (LVDS), WM8960 (Audio Codec),  
 R5F1007E, R5F100GG, STM32F103, STM32F030,  
@@ -68,8 +68,8 @@ FPGA and IC function verification
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
     ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
-- Bootloader/bootrom  
-    I2C/UART to Register/Flash/I2C Bridge  
+- Bootloader/BootRom  
+    I2C/UART Bridge to Register/Ext Flash/ Ext I2C   
     Boot from Flash/I2C/UART  
 - Demo board
     LVDS SerDes, HDMI Transmitter/Receiver,   
