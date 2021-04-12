@@ -4,17 +4,9 @@
 Contact
 ---------
 https://yixingshen.github.io    
-Email: kkman3651878@hotmail.com    
-Linkedin: www.linkedin.com/in/kkman3651878    
+Email: kkman3651878@hotmail.com     
 LINE ID: yixingshen    
-Skype: kkman3651878    
-
-About
----------
-Hardware and System Bring Up   
-Firmware Development     
-Software Development    
-FPGA and IC Function Verification    
+Skype: kkman3651878      
 
 Education
 ---------
