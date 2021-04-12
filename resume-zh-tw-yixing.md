@@ -10,16 +10,14 @@ Skype: kkman3651878
 
 Education
 ---------
-2008 - 2010    
-MSc, Power System, 中原大學電機工程研究所    
+**2008 - 2010** MSc, Power System, 中原大學電機工程研究所    
 
-2004 - 2008    
-BSc, Electrical Engineering, 中原大學電機工程學系     
+**2004 - 2008** BSc, Electrical Engineering, 中原大學電機工程學系     
 
 Experience 
 ---------
 
-2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
+**2013/06 - Present** 義晶科技,系統整合及設計處,資深工程師
 
 Develop GUI and console application using C# .NET and WIN32 API DLL for Avisonic EVB.    
 Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and application firmware.    
@@ -54,7 +52,7 @@ FPGA and IC function verification
   - KL520 (AI Chip, RTOS, MDK-ARM):
   修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
 
-2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
+**2011/12 - 2013/06** 華晶科技,軟體驅動部,高級工程師    
 
 Developed and maintained lens controller firmware and calibration for MQX RTOS Platform.    
 Lens device driver (Zoom/Focus/Iris/Shutter)    
@@ -62,7 +60,8 @@ Lens device driver (Zoom/Focus/Iris/Shutter)
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
 
-2008/09 - 2010/07 中原大學電機研究所    
+**2008/09 - 2010/07** 中原大學電機研究所    
+
 - 應用人工智慧和訊號處理於電力系統    
   以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1][3]   
   運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
