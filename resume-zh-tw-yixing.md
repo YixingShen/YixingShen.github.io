@@ -24,35 +24,6 @@ MSc, Power System, 中原大學電機工程研究所
 2004 - 2008    
 BSc, Electrical Engineering, 中原大學電機工程學系     
 
-Knowledge
----------
-
-Embedded System, RTOS  
-I2C, SPI, UART, I2S,    
-USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
-ITU BT656/BT601/BT1120, EIA/CEA-861,    
-Camera Motor Driver    
-
-Skills & Tool
----------
-
-C,  C# .NET, QT, RTL Verilog     
-Keil,  Renesas CS+, Intel (Altera) Quartus    
-Logic Analyzer, Oscilloscope, Vectorscope   
-
-ICs
----------
-
-AVS7610, AVS7150 (義晶, Fisheye Correction),  
-CYUSB3014, EJ511 (USB Controller),  
-MDIN340/325A/270 (Video Display Processor),   
-IT6801/6604/66121 (HDMI), TC358743XBG (HDMI Bridge to MIPI CS-2 )  
-GV7601/7600 (SDI), TVP5150 (CVBS Video Decoder), PR2000 (Analog HD Video Decoder),   
-DS90UB913/914 (LVDS), WM8960 (Audio Codec),  
-R5F1007E, R5F100GG, STM32F103, STM32F030,  
-KL520 (AI Chip)
-
 Experience 
 ---------
 
@@ -108,3 +79,31 @@ Lens device driver (Zoom/Focus/Iris/Shutter)
   [2] C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, “Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011. (SCI; ISSN:0957-4174)    
   [3] C.-Y. Lee and **Y.-X. Shen**,“Feature Analysis of Power Quality Disturbance in Smart Grid Using S- transform and TT-transform,”International Review of Electrical Engineering, Vol. 7 , No. 2 , 2012. (SCI; ISSN:1827-6660)    
 
+Knowledge
+---------
+
+Embedded System, RTOS  
+I2C, SPI, UART, I2S,    
+USB Video/Audio/HID Class,    
+CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
+ITU BT656/BT601/BT1120, EIA/CEA-861,    
+Camera Motor Driver    
+
+Skills & Tool
+---------
+
+C,  C# .NET, QT, RTL Verilog     
+Keil,  Renesas CS+, Intel (Altera) Quartus    
+Logic Analyzer, Oscilloscope, Vectorscope   
+
+ICs
+---------
+
+AVS7610, AVS7150 (義晶, Fisheye Correction),  
+CYUSB3014, EJ511 (USB Controller),  
+MDIN340/325A/270 (Video Display Processor),   
+IT6801/6604/66121 (HDMI), TC358743XBG (HDMI Bridge to MIPI CS-2 )  
+GV7601/7600 (SDI), TVP5150 (CVBS Video Decoder), PR2000 (Analog HD Video Decoder),   
+DS90UB913/914 (LVDS), WM8960 (Audio Codec),  
+R5F1007E, R5F100GG, STM32F103, STM32F030,  
+KL520 (AI Chip)
