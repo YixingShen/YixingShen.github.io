@@ -38,7 +38,7 @@ FPGA and IC function verification
     ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 - Application
     I2C/UART Bridge to Register/Ext Flash/Ext I2C
-    Firmware Framework, Graphic OSD, Low Level Device Driver
+    Firmware Framework, Graphic OSD, HAL/Low-Level Layer Driver
 - Bootloader/BootRom  
     I2C/UART Bridge to Register/Ext Flash/Ext I2C   
     Boot from Flash/I2C/UART  

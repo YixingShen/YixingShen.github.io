@@ -31,7 +31,7 @@ FPGA and IC function verification
     Generate Initial Register Script for Different Scenarios Use    
     Fisheye/ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter
 - Application  
-    Firmware Framework, Graphic OSD, Low Level Device Driver
+    Firmware Framework, Graphic OSD, HAL/Low-Level Layer Driver
 - Bootloader/BootRom  
     I2C/UART Bridge to Register/Ext Flash/ Ext I2C   
     Boot from Flash/I2C/UART  
