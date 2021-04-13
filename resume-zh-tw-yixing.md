@@ -8,8 +8,13 @@ Email: kkman3651878@hotmail.com
 LINE ID: yixingshen    
 Skype: kkman3651878      
 
+About
+---------
+Firmware/Software Development
+
 Education
 ---------
+
 2008 - 2010     
 MSc, Power System, 中原大學電機工程研究所    
 2004 - 2008    
