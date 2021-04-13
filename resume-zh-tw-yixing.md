@@ -11,6 +11,7 @@ Skype: kkman3651878
 About
 ---------
 Firmware/Software Development
+Bring Up System
 
 Education
 ---------
