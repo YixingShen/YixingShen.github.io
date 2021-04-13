@@ -35,7 +35,7 @@ FPGA and IC function verification
     USB Camera Viewer and Sample Grabber using DirectShow
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
-    ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
+    ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 - Bootloader/BootRom  
     I2C/UART Bridge to Register/Ext Flash/ Ext I2C   
     Boot from Flash/I2C/UART  
