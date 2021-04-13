@@ -29,7 +29,9 @@ FPGA and IC function verification
     USB Camera Viewer and Sample Grabber using DirectShow
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
-    Fisheye/ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
+    Fisheye/ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter
+- Application  
+    Firmware Framework, Graphic OSD, Low Level Device Driver
 - Bootloader/BootRom  
     I2C/UART Bridge to Register/Ext Flash/ Ext I2C   
     Boot from Flash/I2C/UART  
@@ -48,7 +50,7 @@ FPGA and IC function verification
   - EJ511 (eEver Tech, USB Controller, Non-OS, Keil C51):
   修改韌體支援MJPG/YUY2各種解析度組合,修改I2C控制外部裝置流程和客製化設定
   - PR2000 (Pixelplus, Analog HD Video Decoder, Non-OS, MDK-ARM): 
-  修改韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART或I2C介面調整AVS7610設定
+  修改韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART/I2C介面調整AVS7610
   - KL520 (Kneron, AI Chip, RTOS, MDK-ARM):
   修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
 
