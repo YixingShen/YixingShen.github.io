@@ -71,8 +71,8 @@ Lens device driver (Zoom/Focus/Iris/Shutter)
   以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]   
   運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
 - 期刊論文    
-  [1] [C.-Y. Lee and **Y.-X. Shen**, “Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011.](https://doi.org/10.1109/TPWRD.2011.2149547) (SCI; ISSN:0885-8977)    
-  [2] [C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, “Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011.](https://doi.org/10.1016/j.eswa.2011.02.054) (SCI; ISSN:0957-4174)    
+  [1] C.-Y. Lee and **Y.-X. Shen**, [“Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011.](https://doi.org/10.1109/TPWRD.2011.2149547) (SCI; ISSN:0885-8977)    
+  [2] C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, [“Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011.](https://doi.org/10.1016/j.eswa.2011.02.054) (SCI; ISSN:0957-4174)    
 
 Knowledge
 ---------
