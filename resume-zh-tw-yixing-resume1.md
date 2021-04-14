@@ -57,12 +57,13 @@ FPGA and IC function verification
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
 Developed and maintained lens controller firmware and calibration for MQX RTOS platform.    
-Lens device (Motor) driver (Zoom/Focus/Iris/Shutter)    
+Lens device driver (Zoom/Focus/Iris/Shutter)    
 
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
 
 2008/09 - 2010/07 中原大學電機研究所    
+
 - 應用人工智慧和訊號處理於電力系統    
   以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]   
   運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
@@ -78,7 +79,7 @@ I2C, SPI, UART, I2S,
 USB Video/Audio/HID Class,    
 CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
 ITU BT656/BT601/BT1120, EIA/CEA-861,    
-Digital  Camera Lens Device (Motor) Driver    
+Digital  Camera Lens (Motor) Driver    
 
 Skills & Tool
 ---------
