@@ -26,7 +26,7 @@ Experience
 
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 Develop GUI and console application using C# .NET and WIN32 API DLL for Avisonic EVB.    
-Develop Avisonic chip built-in MCU peripheral drivers, bootloader/bootrom and application framework.    
+Develop IC built-in MCU peripheral drivers, bootloader/bootrom and application framework.    
 Bring up and develop demo board firmware  
 FPGA and IC function verification    
 
