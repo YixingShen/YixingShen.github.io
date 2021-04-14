@@ -10,9 +10,9 @@ LINE ID: yixingshen
 
 Education
 ---------
-2008 - 2010   
+2008 - 2010  
 MSc, Power System, 中原大學電機工程研究所    
-2004 - 2008   
+2004 - 2008  
 BSc, Electrical Engineering, 中原大學電機工程學系        
 
 Experience 
@@ -30,9 +30,9 @@ FPGA and IC function verification
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
     Fisheye/ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter
-- Application  
+- MCU Application  
     Firmware Framework, Graphic OSD, HAL/Low-Level Layer Driver
-- Bootloader/BootRom  
+- MCU Bootloader/BootRom  
     I2C/UART Bridge to Register/Ext Flash/Ext I2C   
     Boot from Flash/I2C/UART  
 - Demo board
