@@ -30,7 +30,7 @@ Develop IC built-in MCU peripheral drivers, bootloader/bootrom and application f
 Bring up and develop demo board firmware  
 FPGA and IC function verification    
 
-- GUI  and console application    
+- GUI and console application    
     USB HID/CDC/UVC XU to I2C/SPI   
     USB Camera Viewer and Sample Grabber using DirectShow
     Register/DRAM/Flash Write/Read Operations    
