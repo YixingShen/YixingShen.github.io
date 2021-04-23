@@ -30,8 +30,8 @@ FPGA and IC function verification
     Register/DRAM/Flash Write/Read Operations    
     Generate Initial Register Script for Different Scenarios Use    
     Fisheye/ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter
-- MCU Application  
-    Firmware Framework, Graphic OSD, HAL/Low-Level Layer Driver
+- MCU Application   
+    Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
 - MCU Bootloader/BootRom  
     I2C/UART Bridge to Register/Ext Flash/Ext I2C   
     Boot from Flash/I2C/UART  
@@ -39,7 +39,6 @@ FPGA and IC function verification
     LVDS SerDes, HDMI Transmitter/Receiver,   
     HDMI Up/Down to LVDS/MIPI CSI-2, USB HID/CDC/UVC XU to I2C/SPI        
     Fisheye Camera Module, HDMI/SDI/CVBS to USB Video/Audio       
-
   - CYUSB3014 (Cypress Semi, USB Controller, RTOS, GNU ARM): 
   修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制    
   I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)
@@ -55,7 +54,6 @@ FPGA and IC function verification
   修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
-
 Developed and maintained lens controller firmware and calibration for MQX RTOS platform.    
 Lens device driver (Zoom/Focus/Iris/Shutter)    
 
@@ -63,7 +61,6 @@ Lens device driver (Zoom/Focus/Iris/Shutter)
 - Nikon Digital Camera COOLPIX L28    
 
 2008/09 - 2010/07 中原大學電機研究所    
-
 - 應用人工智慧和訊號處理於電力系統    
   以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]   
   運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
