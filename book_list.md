@@ -107,7 +107,6 @@ Book List
 - FPGA 設計實戰演練 (高級技巧篇)
 - NUCLEO F103RB 開發板
 - 深度學習的數學
-- 國外電子與通信教材系列 : Verilog HDL 高級數字設計, 2/e (Advanced Digital Design with the Verilog HDL, 2/e)
 - 圖解TCP/IP網絡知識輕鬆入門
 - 圖解 TCP/IP 網路通訊協定 (涵蓋IPv6)
 - 了不起的 Markdown
