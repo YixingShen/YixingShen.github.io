@@ -1,4 +1,4 @@
 Notes workspace
 ============
-[My Resume](./resume/index.html)
+[My Resume](https://yixingshen.github.io//resume)
 
