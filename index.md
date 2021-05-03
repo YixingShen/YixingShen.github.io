@@ -1,4 +1,4 @@
 Notes workspace
 ============
-[My Resume](./resume/resume.html)
+[My Resume](./resume/index.html)
 
