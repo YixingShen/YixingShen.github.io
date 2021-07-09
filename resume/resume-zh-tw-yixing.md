@@ -24,7 +24,7 @@ Education
 Experience 
 ---------
 
-2013/06 - Present 義晶科技,系統整合及設計處,資深工程師   
+2013/06 - Present 義晶科技 (Avisonic Technology Corporation), 系統整合及設計處, 資深工程師   
 Develop IC utils using C# .NET and WIN32 API DLL for Avisonic EVB.    
 Develop IC built-in MCU peripheral drivers, bootloader/bootrom and application framework.    
 Bring up and develop demo board and EVB daughter board.   
@@ -60,13 +60,15 @@ FPGA and IC function verification
     - KL520 (Kneron, AI Chip, RTOS, MDK-ARM):
       修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
 
-2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
+2011/12 - 2013/06 華晶科技 (Altek Corporation), 軟體驅動部, 高級工程師    
 Developed and maintained lens controller firmware and calibration for MQX RTOS platform.    
 Lens device driver (Zoom/Focus/Iris/Shutter)    
+
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
 
 2008/09 - 2010/07 中原大學電機研究所    
+
 - 應用人工智慧和訊號處理於電力系統     
   - 以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]     
   - 運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
