@@ -10,16 +10,16 @@ Skype: kkman3651878
 
 About
 ---------
-Firmware/Software Development
-Bring Up System
+- Firmware/Software Development
+- Bring Up System
 
 Education
 ---------
 
-2008 - 2010     
-MSc, Power System, 中原大學電機工程研究所    
-2004 - 2008    
-BSc, Electrical Engineering, 中原大學電機工程學系     
+- 2008 - 2010     
+  MSc, Power System, 中原大學電機工程研究所    
+- 2004 - 2008    
+  BSc, Electrical Engineering, 中原大學電機工程學系     
 
 Experience 
 ---------
@@ -31,34 +31,45 @@ Bring up and develop demo board firmware
 FPGA and IC function verification    
 
 - GUI and console application    
-    USB HID/CDC/UVC XU to I2C/SPI   
-    USB Camera Viewer and Sample Grabber using DirectShow
-    Register/DRAM/Flash Write/Read Operations    
-    Generate Initial Register Script for Different Scenarios Use    
-    ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
-- MCU Application   
-    I2C/UART Bridge to Register/Ext Flash/Ext I2C
-    Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
+
+    - USB HID/CDC/UVC XU to I2C/SPI   
+    - USB Camera Viewer and Sample Grabber using DirectShow
+    - Register/DRAM/Flash Write/Read Operations    
+    - Generate Initial Register Script for Different Scenarios Use    
+    - ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
+
+- MCU Application  
+
+    - I2C/UART Bridge to Register/Ext Flash/Ext I2C
+    - Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
+
 - MCU Bootloader/BootRom  
-    I2C/UART Bridge to Register/Ext Flash/Ext I2C   
-    Boot from Flash/I2C/UART  
+  
+    - I2C/UART Bridge to Register/Ext Flash/Ext I2C   
+    - Boot from Flash/I2C/UART  
+    
 - Demo board
-    LVDS SerDes, HDMI Transmitter/Receiver,   
-    HDMI Up/Down to LVDS/MIPI CSI-2, USB HID/CDC/UVC XU to I2C/SPI        
-    Fisheye Camera Module, HDMI/SDI/CVBS to USB Video/Audio       
-  - CYUSB3014 (Cypress Semi, USB Controller, RTOS, GNU ARM): 
-  修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制    
-    I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)
-  - MDIN340/325A/270 (Macro Image Tech, Video Display Processor, Non-OS, MDK-ARM): 
-    從MDK-ARM移植到Renesas MCU, 修改韌體流程
-  - IT6801/6604/66121 (ITE Tech, HDMI, Non-OS, Keil C51): 
-    從Keil C51移植到Renesas MCU, 修改韌體流程, 修改EDID
-  - EJ511 (eEver Tech, USB Controller, Non-OS, Keil C51):
-    修改韌體支援MJPG/YUY2各種解析度組合,修改I2C控制外部裝置流程和客製化設定
-  - PR2000 (Pixelplus, Analog HD Video Decoder, Non-OS, MDK-ARM): 
-    修改韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART/I2C介面調整AVS7610
-  - KL520 (Kneron, AI Chip, RTOS, MDK-ARM):
-    修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
+
+  - LVDS SerDes
+  - HDMI Transmitter/Receiver 
+  - HDMI Up/Down to LVDS/MIPI CSI-2
+  - USB HID/CDC/UVC XU to I2C/SPI
+  - Fisheye Camera Module
+  - HDMI/SDI/CVBS to USB Video/Audio   
+    - CYUSB3014 (Cypress Semi, USB Controller, RTOS, GNU ARM): 
+      修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制    
+      I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)
+    - MDIN340/325A/270 (Macro Image Tech, Video Display Processor, Non-OS, MDK-ARM): 
+      從MDK-ARM移植到Renesas MCU, 修改韌體流程
+    - IT6801/6604/66121 (ITE Tech, HDMI, Non-OS, Keil C51): 
+      從Keil C51移植到Renesas MCU, 修改韌體流程, 修改EDID
+    - EJ511 (eEver Tech, USB Controller, Non-OS, Keil C51):
+      修改韌體支援MJPG/YUY2各種解析度組合,修改I2C控制外部裝置流程和客製化設定
+    - PR2000 (Pixelplus, Analog HD Video Decoder, Non-OS, MDK-ARM): 
+      修改韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART/I2C介面調整AVS7610
+    - KL520 (Kneron, AI Chip, RTOS, MDK-ARM):
+      修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
+    
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 Developed and maintained lens controller firmware and calibration for MQX RTOS platform.    
@@ -69,11 +80,11 @@ Lens device driver (Zoom/Focus/Iris/Shutter)
 
 2008/09 - 2010/07 中原大學電機研究所    
 - 應用人工智慧和訊號處理於電力系統    
-  以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]   
-  運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
-- 期刊論文    
-  [1] C.-Y. Lee and **Y.-X. Shen**, [“Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011.](https://doi.org/10.1109/TPWRD.2011.2149547) (SCI; ISSN:0885-8977)    
-  [2] C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, [“Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011.](https://doi.org/10.1016/j.eswa.2011.02.054) (SCI; ISSN:0957-4174)    
+- 以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]   
+- 運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
+  - 期刊論文    
+    [1] C.-Y. Lee and **Y.-X. Shen**, [“Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011.](https://doi.org/10.1109/TPWRD.2011.2149547) (SCI; ISSN:0885-8977)    
+    [2] C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, [“Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011.](https://doi.org/10.1016/j.eswa.2011.02.054) (SCI; ISSN:0957-4174)    
 
 Knowledge
 ---------
