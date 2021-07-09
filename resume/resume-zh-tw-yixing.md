@@ -27,7 +27,7 @@ Experience
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 Develop GUI and console application using C# .NET and WIN32 API DLL for Avisonic EVB.    
 Develop IC built-in MCU peripheral drivers, bootloader/bootrom and application framework.    
-Bring up and develop demo board firmware  
+Bring up and develop demo board and EVB daughter board firmware.  
 FPGA and IC function verification    
 
 - Chip Utils
@@ -37,18 +37,16 @@ FPGA and IC function verification
     - Register/DRAM/Flash Write/Read Operations    
     - Generate Initial Register Script for Different Scenarios Use    
     - ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
-
 - Chip Built-in MCU  
 
     - I2C/UART Bridge to Register/Ext Flash/Ext I2C
     - Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
-
-- Demo Board
+-  EVB Daughter Board and Demo Board
 
   - LVDS SerDes
   - HDMI Transmitter/Receiver 
-  - HDMI Up/Down to LVDS/MIPI CSI-2
   - USB HID/CDC/UVC XU to I2C/SPI
+  - HDMI Up/Down to LVDS/MIPI CSI-2
   - Fisheye Camera Module
   - HDMI/SDI/CVBS to USB Video/Audio   
     - CYUSB3014 (Cypress Semi, USB Controller, RTOS, GNU ARM): 
