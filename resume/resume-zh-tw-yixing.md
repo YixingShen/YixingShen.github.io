@@ -25,19 +25,19 @@ Experience
 ---------
 
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
-Develop GUI and console application using C# .NET and WIN32 API DLL for Avisonic EVB.    
+Develop IC Utils using C# .NET and WIN32 API DLL for Avisonic EVB.    
 Develop IC built-in MCU peripheral drivers, bootloader/bootrom and application framework.    
 Bring up and develop demo board and EVB daughter board.  
 FPGA and IC function verification    
 
-- Chip Utils
+- IC Utils
 
     - USB HID/CDC/UVC XU to I2C/SPI   
     - USB Camera Viewer and Sample Grabber using DirectShow
     - Register/DRAM/Flash Write/Read Operations    
     - Generate Initial Register Script for Different Scenarios Use    
     - ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
-- Chip Built-in MCU  
+- IC Built-in MCU  
 
     - I2C/UART Bridge to Register/Ext Flash/Ext I2C
     - Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
