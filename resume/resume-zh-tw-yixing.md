@@ -30,7 +30,7 @@ Develop IC built-in MCU peripheral drivers, bootloader/bootrom and application f
 Bring up and develop demo board firmware  
 FPGA and IC function verification    
 
-- GUI and console application    
+- Chip Utils
 
     - USB HID/CDC/UVC XU to I2C/SPI   
     - USB Camera Viewer and Sample Grabber using DirectShow
@@ -38,16 +38,11 @@ FPGA and IC function verification
     - Generate Initial Register Script for Different Scenarios Use    
     - ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 
-- MCU Application  
+- MCU Application/Bootloader/BootRom  
 
     - I2C/UART Bridge to Register/Ext Flash/Ext I2C
     - Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
 
-- MCU Bootloader/BootRom  
-  
-    - I2C/UART Bridge to Register/Ext Flash/Ext I2C   
-    - Boot from Flash/I2C/UART  
-    
 - Demo board
 
   - LVDS SerDes
@@ -69,7 +64,6 @@ FPGA and IC function verification
       修改韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART/I2C介面調整AVS7610
     - KL520 (Kneron, AI Chip, RTOS, MDK-ARM):
       修改韌體支援DVP, 修改Flash讀寫API, 加入一些客製化功能
-    
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 Developed and maintained lens controller firmware and calibration for MQX RTOS platform.    
