@@ -38,12 +38,12 @@ FPGA and IC function verification
     - Generate Initial Register Script for Different Scenarios Use    
     - ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 
-- Chip built-in MCU  
+- Chip Built-in MCU  
 
     - I2C/UART Bridge to Register/Ext Flash/Ext I2C
     - Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
 
-- Demo board
+- Demo Board
 
   - LVDS SerDes
   - HDMI Transmitter/Receiver 
