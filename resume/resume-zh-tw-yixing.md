@@ -24,25 +24,22 @@ Education
 Experience 
 ---------
 
-2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
-Develop IC utils sing C# .NET and WIN32 API DLL for Avisonic EVB.    
+2013/06 - Present 義晶科技,系統整合及設計處,資深工程師   
+Develop IC utils using C# .NET and WIN32 API DLL for Avisonic EVB.    
 Develop IC built-in MCU peripheral drivers, bootloader/bootrom and application framework.    
-Bring up and develop demo board and EVB daughter board.  
-FPGA and IC function verification    
+Bring up and develop demo board and EVB daughter board.   
+FPGA and IC function verification   
 
-- IC Utils
-
+- IC Utils   
     - USB HID/CDC/UVC XU to I2C/SPI   
     - USB Camera Viewer and Sample Grabber using DirectShow
     - Register/DRAM/Flash Write/Read Operations    
     - Generate Initial Register Script for Different Scenarios Use    
     - ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
-- IC Built-in MCU  
-
+- IC Built-in MCU   
     - I2C/UART Bridge to Register/Ext Flash/Ext I2C
     - Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
--  EVB Daughter Board and Demo Board
-
+-  EVB Daughter Board and Demo Board   
   - LVDS SerDes
   - HDMI Transmitter/Receiver 
   - USB HID/CDC/UVC XU to I2C/SPI
@@ -66,15 +63,12 @@ FPGA and IC function verification
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 Developed and maintained lens controller firmware and calibration for MQX RTOS platform.    
 Lens device driver (Zoom/Focus/Iris/Shutter)    
-
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
 
 2008/09 - 2010/07 中原大學電機研究所    
-- 應用人工智慧和訊號處理於電力系統    
-
-  - 以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]   
-
+- 應用人工智慧和訊號處理於電力系統     
+  - 以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]     
   - 運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
 - 期刊論文    
   [1] C.-Y. Lee and **Y.-X. Shen**, [“Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011.](https://doi.org/10.1109/TPWRD.2011.2149547) (SCI; ISSN:0885-8977)    
@@ -90,7 +84,7 @@ CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,
 ITU BT656/BT601/BT1120, EIA/CEA-861,    
 Digital  Camera Lens (Motor) Driver    
 
-Skills & Tool
+Skills and Tool
 ---------
 
 C,  C# .NET, QT, RTL Verilog     
