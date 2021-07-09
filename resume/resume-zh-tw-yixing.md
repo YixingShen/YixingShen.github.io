@@ -38,7 +38,7 @@ FPGA and IC function verification
     - ISP/Fisheye Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 - IC Built-in MCU   
     - I2C/UART Bridge to Register/Ext Flash/Ext I2C
-    - Firmware Framework, Graphic OSD, ePTZ, HAL/Low-Level Layer Driver
+    - Firmware Framework, Graphic OSD, ePTZ, HAL and Low Layer Driver
 -  EVB Daughter Board and Demo Board   
   - LVDS SerDes
   - HDMI Transmitter/Receiver 
