@@ -85,7 +85,7 @@ Embedded System, RTOS,
 I2C, SPI, UART, I2S,    
 USB Video/Audio/HID Class,    
 CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI,    
-ITU BT656/BT601/BT1120, EIA/CEA-861,    
+ITU-R BT656/BT601/BT1120, EIA/CEA-861,    
 Digital  Camera Lens (Motor) Driver    
 
 Skills and Tool
