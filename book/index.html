@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>book_list</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+
+</style>
+</head>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><h2><a name="book-list" class="md-header-anchor"></a><span>Book List</span></h2><ul><li><span>設計嵌入式硬體 (Designing Embedded Hardware, 2/e)</span></li><li><span>嵌入式系統─使用 C 和 GNU 開發工具 (Programming Embedded Systems with C and GNU Development Tools, 2/e)</span></li><li><span>C 語法暨程式庫標準辭典 (C In A Nutshell: A Desktop Quick Reference)</span></li><li><span>數位相機：觀念、技巧與原理</span></li><li><span>CCD/CMOS 影像感測器之基礎與應用</span></li><li><span>作業系統原理 (Operating System Concepts, 8/e)</span></li><li><span>Windows 應用程式開發經典 (Windows via C/C++, 5/e)</span></li><li><span>Orange&#39;s 一個作業系統的實現</span></li><li><span>嵌入式系統－結構、程式設計、系統設計(Embedded Systems: Architecture, Programming and Design)</span></li><li><span>MicroC/OS-II：即時作業系統核心 (MicroC/OS-II: The Real-Time Kernel, 2/e)</span></li><li><span>C 語言之修煉與實踐</span></li><li><span>建構嵌入式 Linux 系統 (Building Embedded Linux Systems, 2/e)</span></li><li><span>精通 Linux 核心開發, 3/e (Linux Kernel Development, 3/e)</span></li><li><span>大話處理器－了解 DSP、CPU 及 MCU 基礎架構</span></li><li><span>C++ Primer, 4/e 中文版</span></li><li><span>C++ 教學手冊, 3/e</span></li><li><span>Linux 深度學習：Gentoo Linux 實戰架設</span></li><li><span>精通 MFC 視窗程式設計－Visual Studio 2012 版</span></li><li><span>PIC 18F4520 微控制器, 2/e</span></li><li><span>微處理器原理與應用－C 語言與 PIC18 微控制器, 3/e</span></li><li><span>Windows Device Driver Programming 驅動程式設計</span></li><li><span>嵌入式系統韌體揭密</span></li><li><span>嵌入式系統入門 (An Embedded Software Primer)</span></li><li><span>瑞薩 R8C/1A、1B 微處理器原理與應用</span></li><li><span>精通 Python 3 程式設計 (Programming in Python 3: A Complete Introduction to the Python Language, 2/e)</span></li><li><span>精通 C++ GUI 程式設計－使用 Qt 4, 2/e (C++ GUI Programming with Qt 4, 2/e)</span></li><li><span>C 語言數位影像處理－Windows/X-Window</span></li><li><span>21 世紀 C 語言 (21st Century C: C Tips from the New School)</span></li><li><span>影像處理與電腦視覺, 5/e</span></li><li><span>王者歸來－C# 完全開發範例集, 2/e</span></li><li><span>Visual C# 2013 視窗程式設計</span></li><li><span>電腦視覺－演算法與應用 (Computer Vision: Algorithms and Applications)</span></li><li><span>ARM 系統開發者指南 (ARM System Developer&#39;s Guide)</span></li><li><span>改變世界的九大演算法：讓今日電腦無所不能的最強概念(Nine Algorithms That Changed the Future: The Ingenious Ideas That Drive Today’s Computers)</span></li><li><span>電腦視覺－演算法與應用 (Computer Vision: Algorithms and Applications)</span></li><li><span>Raspberry Pi 最佳入門與實戰應用－深入 Raspberry Pi 的全方位指南(附87段教學與執行影片/範例程式檔)</span></li><li><span>絕對看得懂！超圖解網路技術入門</span></li><li><span>名題精選百則─技巧篇, 3/e</span></li><li><span>數位影像處理－活用 Matlab, 2/e (精裝本)</span></li><li><span>數值分析－使用 C 語言, 3/e</span></li><li><span>Raspberry Pi 超炫專案與完全實戰 (深入 Raspberry Pi 的全面開發經典) (附101段教學與執行影片/範例程式)</span></li><li><span>影像壓縮技術</span></li><li><span>資料壓縮 (Introduction to Data Compression, 3/e)</span></li><li><span>Google! Android 手機應用程式設計入門, 5/e</span></li><li><span>Android 程式設計入門、應用到精通--增訂第三版 (適用 5.X~1.X, Android Wear 穿戴式裝置)</span></li><li><span>專案管理人應該知道的 97 件事－來自專家的集體智慧 (97 Things Every Project Manager Should Know: Collective Wisdom from the Experts)</span></li><li><span>一頁紙專案管理：以最簡潔的溝通工具打造最精實的執行力，再大的專案也難不倒你</span></li><li><span>Linux 硬體架構與指令之解析</span></li><li><span>Linux 作業系統之奧義, 2/e</span></li><li><span>OpenCV 2 電腦視覺編程手冊 (OpenCV 2 Computer Vision Application Programming Cookbook)</span></li><li><span>自己動手寫 CPU</span></li><li><span>CPU 自製入門</span></li><li><span>Debug Hacks 除錯駭客－極致除錯的技巧與工具</span></li><li><span>Binary Hacks－駭客秘傳技巧一百招</span></li><li><span>量子物理史話：上帝擲骰子嗎？</span></li><li><span>解析深度學習: 語音識別實踐</span></li><li><span>深入理解機器學習：從原理到算法</span></li><li><span>高手都用 Qt 進行 Android 專案 (舊版: 比 Eclipse 更強的 Qt on Android 全腦開發聖經)</span></li><li><span>Android高效入門&gt;&gt;深度學習－使用Android Studio 2開發Android 6.0 APP</span></li><li><span>演算法 (杉浦賢 著、張華英 譯)</span></li><li><span>資料智慧化：利用資料科學，將資訊化為創見</span></li><li><span>演算法的樂趣｜23個程式設計必學主題與應用實例</span></li><li><span>了解人工智慧的第一本書：機器人和人工智慧能否取代人類？</span></li><li><span>嵌入式系統設計: ARM-Based FPGA基礎篇</span></li><li><span>Verilog 硬體描述語言數位電路─設計實務, 9/e</span></li><li><span>Altera FPGA/CPLD設計(基礎篇)(第2版)(Altera公司推薦FPGA/CPLD培訓教材)</span></li><li><span>基於NiosⅡ的嵌入式SoPC系統設計與Verilog開發實例</span></li><li><span>Altera FPGA/CPLD設計─高級篇, 2/e</span></li><li><span>Verilog 硬體描述語言 (Verilog HDL: A Guide to Digital Design and Synthesis, 2/e)</span></li><li><span>Verilog - ARM嵌入式系統設計 Base on FPGA (舊版: 軟核心處理器設計---從 ARM9 到 FPGA)</span></li><li><span>USB 3.1完全開發手冊 第5版 (USB Complete: The Developer&#39;s Guide, 5/e)</span></li><li><span>解析Linux驅動程式設計</span></li><li><span>The Linux Programming Interface 國際中文版 (上冊 + 下冊)</span></li><li><span>類神經網路, 2/e (附範例光碟)</span></li><li><span>類神經網路設計 (Neural Network Design)</span></li><li><span>OpenCL 實戰(OpenCL in Action: How to Accelerate Graphics and Computations)</span></li><li><span>培養與鍛鍊程式設計的邏輯腦：程式設計大賽的解題策略基礎入門, 2/e</span></li><li><span>計算機科學叢書:數字媒體技術教程</span></li><li><span>深入淺出深度學習:原理剖析與Python實踐</span></li><li><span>TensorFlow技術解析與實戰</span></li><li><span>CMOS 數位積體電路分析與設計, 4/e (Kang: CMOS Digital Integrated Circuits Analysis and Design, 4/e) (授權經銷版)</span></li><li><span>Linux設備驅動開發詳解:基於最新的Linux4.0內核</span></li><li><span>Audio Coding 技術手冊：MP3 篇, 2/e</span></li><li><span>資料壓縮的原理與應用, 2/e</span></li><li><span>JPEG 2000 影像壓縮技術, 2/e</span></li><li><span>演算法圖鑑：26種演算法 + 7種資料結構，人工智慧、數據分析、邏輯思考的原理和應用step by step全圖解</span></li><li><span>微算機基本原理與應用－MCS-51 嵌入式微算機系統軟體與硬體, 3/e</span></li><li><span>輕松玩轉STM32Cube</span></li><li><span>嵌入式軟件設計基礎－基於 ARM Cortex-M3, 2/e (Fundamentals of Embedded Software with the ARM Cortex-M3, 2/e)</span></li><li><span>Cortex-M3 之 STM32 嵌入式系統設計</span></li><li><span>ARM Cortex-M0 官方教材－嵌入式系統設計入門 (The Definitive Guide to the ARM Cortex-M0)</span></li><li><span>深入淺出USB系統開發:基於ARM Cortex-M3</span></li><li><span>精通STM32F4(寄存器版)</span></li><li><span>奔跑吧 Linux 內核</span></li><li><span>王者歸來：和大師一起動手--撰寫一個完整的作業系統</span></li><li><span>微處理器原理與應用 : 組合語言與 PIC18 微控制器, 2/e</span></li><li><span>深入理解計算機系統 (原書第3版)</span></li><li><span>Verilog - Testbench 數位電路測試程式設計</span></li><li><span>CMOS VLSI 設計原理 (CMOS VLSI Design: A Circuits and Systems Perspective, 3/e)</span></li><li><span>GitHub 入門與實踐</span></li><li><span>精通嵌入式 Linux 程式設計 (Mastering Embedded Linux Programming)</span></li><li><span>數位邏輯原理</span></li><li><span>微算機原理與應用－x86/x64微處理器軟體、硬體、界面與系統, 6/e (精裝本) </span></li><li><span>數位系統實習 Quartus II (第二版)</span></li><li><span>FPGA 設計實戰演練 (高級技巧篇)</span></li><li><span>NUCLEO F103RB 開發板</span></li><li><span>深度學習的數學</span></li><li><span>圖解TCP/IP網絡知識輕鬆入門</span></li><li><span>圖解 TCP/IP 網路通訊協定 (涵蓋IPv6)</span></li><li><span>了不起的 Markdown</span></li><li><span>電磁干擾防治與量測, 8/e</span></li><li><span>PCB Layout 印刷電路板設計 (基礎篇)</span></li><li><span>機器學習與深度學習：通過 C語言模擬</span></li><li><span>深度學習圖解 (Grokking Deep Learning)</span></li><li><span>自然語言處理與深度學習：通過 C語言模擬</span></li><li><span>強化學習與深度學習：通過C語言模擬</span></li><li><span>C#圖解教程, 5/e (Illustrated C# 7: The C# Language Presented Clearly, Concisely, and Visually, 5/e)</span></li><li><span>SoC FPGA 嵌入式設計和開發教程（Intel FPGA 大學計劃推薦，一線工程師實踐總結）</span></li><li><span>IntelFPGA 權威設計指南：基於 QuartusPrimePro19 集成開發環境</span></li><li><span>手把手教你設計 CPU-RISC-V 處理器篇</span></li><li><span>數字設計和電腦體系結構（原書第2版·ARM版）</span></li><li><span>用Verilog設計FPGA樣機實例解析（Xilinx Spartan-3 版）</span></li><li><span>深入理解FPGA電子系統設計——基於Quartus Prime與VHDL的Altera</span></li><li><span>SystemVerilog 驗證</span></li><li><span>芯片驗證漫游指南:從系統理論到 UVM 的驗證全視界</span></li><li><span>最新圖解馬達入門</span></li><li><span>世界第一簡單馬達</span></li><li><span>深入理解無刷直流電機矢量控制技術 </span></li><li><span>RT-Thread 內核實現與應用開發實戰指南 — 基於 STM32 RT-Thread RTOS STM32</span></li><li><span>21世紀 C語言, 2/e (21st Century C: C Tips from the New School, 2/e)</span></li><li><span>嵌入式 Linux 基礎教程, 2/e (Embedded Linux Primer: A Practical Real-World Approach, 2/e)</span></li><li><span>嵌入式 Linux 編程</span></li><li><span>深入理解 LINUX 內核, 3/e (涵盖2.6版) (Understanding the Linux Kernel, 3/e)</span></li></ul></div>
+</body>
+</html>

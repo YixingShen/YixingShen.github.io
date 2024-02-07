@@ -1,0 +1,135 @@
+Book List
+---------
+- 設計嵌入式硬體 (Designing Embedded Hardware, 2/e)
+- 嵌入式系統─使用 C 和 GNU 開發工具 (Programming Embedded Systems with C and GNU Development Tools, 2/e)
+- C 語法暨程式庫標準辭典 (C In A Nutshell: A Desktop Quick Reference)
+- 數位相機：觀念、技巧與原理
+- CCD/CMOS 影像感測器之基礎與應用
+- 作業系統原理 (Operating System Concepts, 8/e)
+- Windows 應用程式開發經典 (Windows via C/C++, 5/e)
+- Orange's 一個作業系統的實現
+- 嵌入式系統－結構、程式設計、系統設計(Embedded Systems: Architecture, Programming and Design)
+- MicroC/OS-II：即時作業系統核心 (MicroC/OS-II: The Real-Time Kernel, 2/e)
+- C 語言之修煉與實踐
+- 建構嵌入式 Linux 系統 (Building Embedded Linux Systems, 2/e)
+- 精通 Linux 核心開發, 3/e (Linux Kernel Development, 3/e)
+- 大話處理器－了解 DSP、CPU 及 MCU 基礎架構
+- C++ Primer, 4/e 中文版
+- C++ 教學手冊, 3/e
+- Linux 深度學習：Gentoo Linux 實戰架設
+- 精通 MFC 視窗程式設計－Visual Studio 2012 版
+- PIC 18F4520 微控制器, 2/e
+- 微處理器原理與應用－C 語言與 PIC18 微控制器, 3/e
+- Windows Device Driver Programming 驅動程式設計
+- 嵌入式系統韌體揭密
+- 嵌入式系統入門 (An Embedded Software Primer)
+- 瑞薩 R8C/1A、1B 微處理器原理與應用
+- 精通 Python 3 程式設計 (Programming in Python 3: A Complete Introduction to the Python Language, 2/e)
+- 精通 C++ GUI 程式設計－使用 Qt 4, 2/e (C++ GUI Programming with Qt 4, 2/e)
+- C 語言數位影像處理－Windows/X-Window
+- 21 世紀 C 語言 (21st Century C: C Tips from the New School)
+- 影像處理與電腦視覺, 5/e
+- 王者歸來－C# 完全開發範例集, 2/e
+- Visual C# 2013 視窗程式設計
+- 電腦視覺－演算法與應用 (Computer Vision: Algorithms and Applications)
+- ARM 系統開發者指南 (ARM System Developer's Guide)
+- 改變世界的九大演算法：讓今日電腦無所不能的最強概念(Nine Algorithms That Changed the Future: The Ingenious Ideas That Drive Today’s Computers)
+- 電腦視覺－演算法與應用 (Computer Vision: Algorithms and Applications)
+- Raspberry Pi 最佳入門與實戰應用－深入 Raspberry Pi 的全方位指南(附87段教學與執行影片/範例程式檔)
+- 絕對看得懂！超圖解網路技術入門
+- 名題精選百則─技巧篇, 3/e
+- 數位影像處理－活用 Matlab, 2/e (精裝本)
+- 數值分析－使用 C 語言, 3/e
+- Raspberry Pi 超炫專案與完全實戰 (深入 Raspberry Pi 的全面開發經典) (附101段教學與執行影片/範例程式)
+- 影像壓縮技術
+- 資料壓縮 (Introduction to Data Compression, 3/e)
+- Google! Android 手機應用程式設計入門, 5/e
+- Android 程式設計入門、應用到精通--增訂第三版 (適用 5.X~1.X, Android Wear 穿戴式裝置)
+- 專案管理人應該知道的 97 件事－來自專家的集體智慧 (97 Things Every Project Manager Should Know: Collective Wisdom from the Experts)
+- 一頁紙專案管理：以最簡潔的溝通工具打造最精實的執行力，再大的專案也難不倒你
+- Linux 硬體架構與指令之解析
+- Linux 作業系統之奧義, 2/e
+- OpenCV 2 電腦視覺編程手冊 (OpenCV 2 Computer Vision Application Programming Cookbook)
+- 自己動手寫 CPU
+- CPU 自製入門
+- Debug Hacks 除錯駭客－極致除錯的技巧與工具
+- Binary Hacks－駭客秘傳技巧一百招
+- 量子物理史話：上帝擲骰子嗎？
+- 解析深度學習: 語音識別實踐
+- 深入理解機器學習：從原理到算法
+- 高手都用 Qt 進行 Android 專案 (舊版: 比 Eclipse 更強的 Qt on Android 全腦開發聖經)
+- Android高效入門>>深度學習－使用Android Studio 2開發Android 6.0 APP
+- 演算法 (杉浦賢 著、張華英 譯)
+- 資料智慧化：利用資料科學，將資訊化為創見
+- 演算法的樂趣｜23個程式設計必學主題與應用實例
+- 了解人工智慧的第一本書：機器人和人工智慧能否取代人類？
+- 嵌入式系統設計: ARM-Based FPGA基礎篇
+- Verilog 硬體描述語言數位電路─設計實務, 9/e
+- Altera FPGA/CPLD設計(基礎篇)(第2版)(Altera公司推薦FPGA/CPLD培訓教材)
+- 基於NiosⅡ的嵌入式SoPC系統設計與Verilog開發實例
+- Altera FPGA/CPLD設計─高級篇, 2/e
+- Verilog 硬體描述語言 (Verilog HDL: A Guide to Digital Design and Synthesis, 2/e)
+- Verilog - ARM嵌入式系統設計 Base on FPGA (舊版: 軟核心處理器設計---從 ARM9 到 FPGA)
+- USB 3.1完全開發手冊 第5版 (USB Complete: The Developer's Guide, 5/e)
+- 解析Linux驅動程式設計
+- The Linux Programming Interface 國際中文版 (上冊 + 下冊)
+- 類神經網路, 2/e (附範例光碟)
+- 類神經網路設計 (Neural Network Design)
+- OpenCL 實戰(OpenCL in Action: How to Accelerate Graphics and Computations)
+- 培養與鍛鍊程式設計的邏輯腦：程式設計大賽的解題策略基礎入門, 2/e
+- 計算機科學叢書:數字媒體技術教程
+- 深入淺出深度學習:原理剖析與Python實踐
+- TensorFlow技術解析與實戰
+- CMOS 數位積體電路分析與設計, 4/e (Kang: CMOS Digital Integrated Circuits Analysis and Design, 4/e) (授權經銷版)
+- Linux設備驅動開發詳解:基於最新的Linux4.0內核
+- Audio Coding 技術手冊：MP3 篇, 2/e
+- 資料壓縮的原理與應用, 2/e
+- JPEG 2000 影像壓縮技術, 2/e
+- 演算法圖鑑：26種演算法 + 7種資料結構，人工智慧、數據分析、邏輯思考的原理和應用step by step全圖解
+- 微算機基本原理與應用－MCS-51 嵌入式微算機系統軟體與硬體, 3/e
+- 輕松玩轉STM32Cube
+- 嵌入式軟件設計基礎－基於 ARM Cortex-M3, 2/e (Fundamentals of Embedded Software with the ARM Cortex-M3, 2/e)
+- Cortex-M3 之 STM32 嵌入式系統設計
+- ARM Cortex-M0 官方教材－嵌入式系統設計入門 (The Definitive Guide to the ARM Cortex-M0)
+- 深入淺出USB系統開發:基於ARM Cortex-M3
+- 精通STM32F4(寄存器版)
+- 奔跑吧 Linux 內核
+- 王者歸來：和大師一起動手--撰寫一個完整的作業系統
+- 微處理器原理與應用 : 組合語言與 PIC18 微控制器, 2/e
+- 深入理解計算機系統 (原書第3版)
+- Verilog - Testbench 數位電路測試程式設計
+- CMOS VLSI 設計原理 (CMOS VLSI Design: A Circuits and Systems Perspective, 3/e)
+- GitHub 入門與實踐
+- 精通嵌入式 Linux 程式設計 (Mastering Embedded Linux Programming)
+- 數位邏輯原理
+- 微算機原理與應用－x86/x64微處理器軟體、硬體、界面與系統, 6/e (精裝本) 
+- 數位系統實習 Quartus II (第二版)
+- FPGA 設計實戰演練 (高級技巧篇)
+- NUCLEO F103RB 開發板
+- 深度學習的數學
+- 圖解TCP/IP網絡知識輕鬆入門
+- 圖解 TCP/IP 網路通訊協定 (涵蓋IPv6)
+- 了不起的 Markdown
+- 電磁干擾防治與量測, 8/e
+- PCB Layout 印刷電路板設計 (基礎篇)
+- 機器學習與深度學習：通過 C語言模擬
+- 深度學習圖解 (Grokking Deep Learning)
+- 自然語言處理與深度學習：通過 C語言模擬
+- 強化學習與深度學習：通過C語言模擬
+- C#圖解教程, 5/e (Illustrated C# 7: The C# Language Presented Clearly, Concisely, and Visually, 5/e)
+- SoC FPGA 嵌入式設計和開發教程（Intel FPGA 大學計劃推薦，一線工程師實踐總結）
+- IntelFPGA 權威設計指南：基於 QuartusPrimePro19 集成開發環境
+- 手把手教你設計 CPU-RISC-V 處理器篇
+- 數字設計和電腦體系結構（原書第2版·ARM版）
+- 用Verilog設計FPGA樣機實例解析（Xilinx Spartan-3 版）
+- 深入理解FPGA電子系統設計——基於Quartus Prime與VHDL的Altera
+- SystemVerilog 驗證
+- 芯片驗證漫游指南:從系統理論到 UVM 的驗證全視界
+- 最新圖解馬達入門
+- 世界第一簡單馬達
+- 深入理解無刷直流電機矢量控制技術 
+- RT-Thread 內核實現與應用開發實戰指南 — 基於 STM32 RT-Thread RTOS STM32
+- 21世紀 C語言, 2/e (21st Century C: C Tips from the New School, 2/e)
+- 嵌入式 Linux 基礎教程, 2/e (Embedded Linux Primer: A Practical Real-World Approach, 2/e)
+- 嵌入式 Linux 編程
+- 深入理解 LINUX 內核, 3/e (涵盖2.6版) (Understanding the Linux Kernel, 3/e)
