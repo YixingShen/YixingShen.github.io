@@ -28,7 +28,7 @@ Experience
 
 2022/04 - Present 奇景光電 (Himax Technologies, Inc), ASIC設計處, 系統應用工程師    
 
-> Port Trusted Firmware-M, FatFs file system, RTX5 RTOS    
+> Port TF-M, FatFs file system, RTX5 RTOS    
 > Integrate SDK to CMSIS packs
 
 - IC Utils 
