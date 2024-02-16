@@ -94,10 +94,10 @@ Experience
 - Miscellaneous
   
   - CYUSB3014 (Cypress Semi, USB Controller, ThreadX, GNU ARM):    
-    修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入(DirectShow or V4L2)    
+    修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入  
   - MDIN340/325A/270 (Macro Image Tech, Video Display Processor, MDK-ARM):     
     從LM3S1607移植到Renesas MCU (RL78/G13), 加入OSD顯示, 修改韌體流程    
-  - EJ511 (eEver Tech, USB Controller, Keil PK51):    
+  - EJ511 (eEver Tech, USB Controller, Keil C51):    
     修改韌體支援MJPG/YUY2各種解析度組合,修改I2C控制外部裝置流程和客製化設定
   - PR2000 (Pixelplus, Analog HD Video Decoder, MDK-ARM):    
     修改STM32F103韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART/I2C介面調整AVS7610 
