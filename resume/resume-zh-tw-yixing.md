@@ -147,7 +147,7 @@ Skills and Tool
 ---------
 
 - C, C# .NET, Python, QT, Matlab, STM32Cube, GNU Make, RTL Verilog    
-- Keil MDK-ARM/C51, Microsoft Visual Studio, Renesas CS+, Intel (Altera) Quartus    
+- Keil MDK-ARM/C51, Microsoft Visual Studio, Renesas CS+, Intel (Altera) Quartus Prime    
 - Logic Analyzer, Oscilloscope, Vectorscope    
 
 ICs
