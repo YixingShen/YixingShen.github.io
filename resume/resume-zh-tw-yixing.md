@@ -14,7 +14,6 @@ About
 ---------
 
 - System Engineer
-- Board Bring Up
 - Firmware and Software Development
 
 Education
@@ -28,7 +27,7 @@ Experience
 
 2022/04 - Present 奇景光電 (Himax Technologies, Inc), ASIC設計處, 系統應用工程師    
 
-> Port TF-M, FatFs file system, RTX5 RTOS    
+> Port TF-M, FatFs, RTX5    
 > Integrate SDK to CMSIS packs
 
 - IC Utils 
@@ -147,7 +146,7 @@ Skills and Tool
 ---------
 
 - C, C# .NET, Python, QT, Matlab, STM32Cube, GNU Make, RTL Verilog    
-- Keil MDK-ARM/C51, Microsoft Visual Studio, Renesas CS+, Intel (Altera) Quartus Prime    
+- Keil MDK-ARM/C51, Visual Studio, Renesas CS+, Quartus Prime    
 - Logic Analyzer, Oscilloscope, Vectorscope    
 
 ICs
