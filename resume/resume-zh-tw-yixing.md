@@ -137,10 +137,9 @@ Knowledge
 ---------
 
 - Embedded System, RTOS 
-- I2C, SPI, UART, I2S
-- USB Video/Audio/HID Class
-- CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI, ITU-R BT656/BT601/BT1120, EIA/CEA-861  
-- Digital Camera Lens (Motor) Driver    
+- I2C, SPI, UART, I2S, USB
+- CMOS Sensor DVP, CVBS, HDMI, ITU-R BT656/BT601/BT1120, EIA/CEA-861  
+- Camera Lens (Motor) Driver    
 
 Skills and Tool
 ---------
@@ -152,7 +151,7 @@ Skills and Tool
 ICs
 ---------
 
-- AVS7610, AVS7150 (義晶, Fisheye Correction)
+- AVS7610, AVS7150 (Fisheye Correction)
 - CYUSB3014, EJ511 (USB Controller)
 - MDIN340/325A/270 (Video Display Processor)
 - IT6801/6604/66121 (HDMI), TC358743XBG (HDMI Bridge to MIPI CS-2)  
