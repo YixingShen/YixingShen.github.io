@@ -147,3 +147,16 @@ Skills and Tool
 - C, C# .NET, Python, QT, Matlab, STM32Cube, GNU Make, RTL Verilog    
 - Keil MDK-ARM/C51, Visual Studio, Renesas CS+, Quartus Prime    
 - Logic Analyzer, Oscilloscope, Vectorscope    
+
+
+ICs
+---------
+
+- AVS7610, AVS7150 (Fisheye Correction)
+- CYUSB3014, EJ511 (USB Controller)
+- MDIN340/325A/270 (Video Display Processor)
+- IT6801/6604/66121 (HDMI), TC358743XBG (HDMI Bridge to MIPI CS-2)  
+- GV7601/7600 (SDI), TVP5150 (CVBS Video Decoder), PR2000 (Analog HD Video Decoder)
+- DS90UB913/914 (LVDS), WM8960 (Audio Codec)
+- R5F1007E, R5F100GG, STM32F103, STM32F030
+- KL520 (AI Chip), KL720 (AI Chip)
