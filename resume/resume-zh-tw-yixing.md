@@ -27,7 +27,7 @@ Experience
 
 2022/04 - Present 奇景光電 (Himax Technologies, Inc), ASIC設計處, 系統應用工程師    
 
-> Port TF-M, FatFs, RTX5    
+> Port TF-M, FatFs, RTX5, TinyUSB    
 > Integrate SDK to CMSIS packs
 
 - IC Utils 
@@ -148,6 +148,7 @@ Skills and Tool
 - Keil MDK-ARM/C51, Visual Studio, Renesas CS+, Quartus Prime    
 - Logic Analyzer, Oscilloscope, Vectorscope    
 
+<!-- 
 ICs
 ---------
 
@@ -159,3 +160,4 @@ ICs
 - DS90UB913/914 (LVDS), WM8960 (Audio Codec)
 - R5F1007E, R5F100GG, STM32F103, STM32F030
 - KL520 (AI Chip), KL720 (AI Chip)
+-->
