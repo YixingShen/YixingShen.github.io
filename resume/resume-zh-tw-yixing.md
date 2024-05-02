@@ -138,8 +138,8 @@ Knowledge
 
 - Embedded System, RTOS 
 - I2C, SPI, UART, I2S, USB
-- CMOS Sensor DVP, CVBS, HDMI, ITU-R BT656/BT601/BT1120, EIA/CEA-861  
-- Camera Lens (Motor) Driver    
+- Sensor DVP, CVBS, HDMI, ITU-R BT656/BT601/BT1120, EIA/CEA-861  
+- Lens Motor Driver    
 
 Skills and Tool
 ---------
