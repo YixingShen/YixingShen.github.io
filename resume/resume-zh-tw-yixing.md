@@ -37,6 +37,8 @@ Experience
     - Multipath Bridge to SPIM/SPIS/I2CM/UART
   - pyOCD FlashAlgo and FLM
     - Erase, Dump, Auto Produce
+  - USB DFU
+    - Download, Upload, Detach
 
 2013/06 - 2022/04 義晶科技 (Avisonic Technology Corporation), 系統整合及設計處, 系統應用工程師    
 
@@ -138,7 +140,7 @@ Knowledge
 
 - Embedded System, RTOS 
 - I2C, SPI, UART, I2S, USB
-- Sensor DVP, CVBS, HDMI, ITU-R BT656/BT601/BT1120, EIA/CEA-861  
+- Sensor DVP, CVBS, HDMI, BT656/BT601/BT1120, CEA-861  
 - Lens Motor Driver    
 
 Skills and Tool
@@ -146,7 +148,7 @@ Skills and Tool
 
 - C, C# .NET, Python, QT, Matlab, STM32Cube, GNU Make, RTL Verilog    
 - Keil MDK-ARM/C51, Visual Studio, Renesas CS+, Quartus Prime    
-- Logic Analyzer, Oscilloscope, Vectorscope    
+- Logic Analyzer, Oscilloscope, Vectorscope   
 
 <!--
 ICs
