@@ -8,7 +8,8 @@ Contact
 
 Email: kkman3651878@hotmail.com    
 LINE ID: yixingshen    
-Skype: kkman3651878    
+WeChat: yixingshen_tw    
+Microsoft Teams: kkman3651878    
 
 About
 ---------
@@ -39,6 +40,9 @@ Experience
     - Erase, Dump, Auto Produce
   - USB DFU
     - Download, Upload, Detach
+  - USB Camera
+    - DirectShow Capture uncompressed andmjpeg streams or still mages
+    - Extension Unit commands 
 
 2013/06 - 2022/04 義晶科技 (Avisonic Technology Corporation), 系統整合及設計處, 系統應用工程師    
 
