@@ -41,7 +41,7 @@ Experience
   - USB DFU
     - Download, Upload, Detach
   - USB Camera
-    - DirectShow Capture uncompressed and mjpeg streams or still mages
+    - DirectShow Capture uncompressed and mjpeg streams or still images
     - UVC Extension Unit commands 
 
 2013/06 - 2022/04 義晶科技 (Avisonic Technology Corporation), 系統整合及設計處, 系統應用工程師    
