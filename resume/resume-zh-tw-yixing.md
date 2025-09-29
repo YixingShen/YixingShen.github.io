@@ -9,7 +9,7 @@ Contact
 Email: kkman3651878@hotmail.com    
 LINE ID: yixingshen    
 WeChat: yixingshen_tw    
-Microsoft Teams: kkman3651878    
+Teams: kkman3651878    
 
 About
 ---------
@@ -28,7 +28,7 @@ Experience
 
 2022/04 - Present 奇景光電 (Himax Technologies, Inc), ASIC設計處, 系統應用工程師    
 
-> Port TF-M, FatFs, RTX5, TinyUSB    
+> Port TF-M, FatFs, RTX5, TinyUSB, UF2     
 > Integrate SDK to CMSIS packs
 
 - IC Utils 
