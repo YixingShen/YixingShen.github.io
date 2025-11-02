@@ -62,8 +62,8 @@ Experience
     - Erase, Dump, Auto Produce, Block Protect
   - Script and Code Generator    
     - VIP, ISP, NR, SCLDN, Frame Buffer, SCLUP, DISP, TVEN
-  - RAW (CFA)/RGB/YCBCR Image Converter    
-    - RAW Bayer (CFA)
+  - RAW/RGB/YCBCR Image Converter    
+    - RAW Bayer
     - YCBCR444/422/420 Packed
     - YCBCR444/422/420 Planar
     - YCBCR422/420 Semi Planar
@@ -100,7 +100,7 @@ Experience
   
   - CYUSB3014 (Cypress Semi, USB Controller, ThreadX, GNU ARM):    
     修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入  
-  - MDIN340/325A/270 (Macro Image Tech, Video Display Processor, MDK-ARM):     
+  - MDIN340/325A/270 (Macro Image Tech, Video Display Processor, MDK-ARM):    
     從LM3S1607移植到Renesas MCU (RL78/G13), 加入OSD顯示, 修改韌體流程    
   - EJ511 (eEver Tech, USB Controller, Keil C51):    
     修改韌體支援MJPG/YUY2各種解析度組合,修改I2C控制外部裝置流程和客製化設定
@@ -153,17 +153,3 @@ Skills and Tool
 - C, C# .NET, Python, QT, Matlab, STM32Cube, GNU Make, RTL Verilog    
 - Keil MDK-ARM/C51, Visual Studio, Renesas CS+, Quartus Prime    
 - Logic Analyzer, Oscilloscope, Vectorscope   
-
-<!--
-ICs
----------
-
-- AVS7610, AVS7150 (Fisheye Correction)
-- CYUSB3014, EJ511 (USB Controller)
-- MDIN340/325A/270 (Video Display Processor)
-- IT6801/6604/66121 (HDMI), TC358743XBG (HDMI Bridge to MIPI CS-2)  
-- GV7601/7600 (SDI), TVP5150 (CVBS Video Decoder), PR2000 (Analog HD Video Decoder)
-- DS90UB913/914 (LVDS), WM8960 (Audio Codec)
-- R5F1007E, R5F100GG, STM32F103, STM32F030
-- KL520 (AI Chip), KL720 (AI Chip)
--->
