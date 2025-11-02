@@ -1,8 +1,6 @@
 沈玴興 (Yixing Shen)
 ============
 
-https://yixingshen.github.io 
-
 Contact
 ---------
 
