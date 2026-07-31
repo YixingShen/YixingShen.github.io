@@ -18,15 +18,15 @@ About
 Education
 ---------
 
-- 2008 - 2010, MSc, Power Systems Engineering, 中原大學電機工程研究所    
-- 2004 - 2008, BSc, Electrical Engineering, 中原大學電機工程學系     
+- 2008 - 2010, MSc, Power Systems Engineering, Chung Yuan Christian University    
+- 2004 - 2008, BSc, Electrical Engineering,  Chung Yuan Christian University     
 
 Experience
 ---------
 
-2022/04 - Present 奇景光電 (Himax Technologies, Inc), ASIC設計處, 系統應用工程師    
+2022/04 - Present 奇景光電 (Himax Technologies, Inc), ASIC Design Division, System Engineer        
 
-> Port TF-M, FatFs, RTX5, TinyUSB, UF2     
+> Port TF-M, FatFs, RTX5, TinyUSB, UF2, Zephyr RTOS     
 > Integrate SDK to CMSIS packs
 
 - IC Utils 
@@ -42,7 +42,7 @@ Experience
     - DirectShow Capture uncompressed and mjpeg streams or still images
     - UVC Extension Unit commands 
 
-2013/06 - 2022/04 義晶科技 (Avisonic Technology Corporation), 系統整合及設計處, 系統應用工程師    
+2013/06 - 2022/04 義晶科技 (Avisonic Technology Corporation), System Integration & Design Division, System Engineer        
 
 > Design and develop IC utils using C# .Net Framework and WIN32 API DLL for EVB.    
 > Design and develop IC built-in MCU (DP8051) peripheral drivers, bootloader and application codebase.    
@@ -97,15 +97,15 @@ Experience
 - Miscellaneous
   
   - CYUSB3014 (Cypress Semi, USB Controller, ThreadX, GNU ARM):    
-    修改GPIF設定, 接收YUV422 16bit/8bit影像資料, 加入HID和UVC Extension Unit (XU)控制I2C/SPI, 電腦透過USB存取I2C/SPI裝置和擷取影像輸入  
+    Modified GPIF II configurations to receive 16/8-bit YUV422 video data, and implemented HID and UVC Extension Unit (XU) controls over I2C/SPI interfaces to enable host access and video capture via USB.  
   - MDIN340/325A/270 (Macro Image Tech, Video Display Processor, MDK-ARM):    
-    從LM3S1607移植到Renesas MCU (RL78/G13), 加入OSD顯示, 修改韌體流程    
+    Ported display processing firmware from Stellaris LM3S1607 to Renesas MCU (RL78/G13), integrated customized OSD layers, and optimized firmware execution flow.    
   - EJ511 (eEver Tech, USB Controller, Keil C51):    
-    修改韌體支援MJPG/YUY2各種解析度組合,修改I2C控制外部裝置流程和客製化設定
+    Modified firmware to support various resolution combinations for MJPEG/YUY2; modified I2C control procedures for external devices and configured custom settings.
   - PR2000 (Pixelplus, Analog HD Video Decoder, MDK-ARM):    
-    修改STM32F103韌體流程加入AVS7610控制, 加入I2C Slave功能, 電腦可透過UART/I2C介面調整AVS7610 
-  - KL520/KL720  (Kneron, AI Chip, ARM Cortex-M4, CMSIS RTOS, MDK-ARM):    
-    修改KL520韌體Host Mode支援MIPI DPI, 修改Flash讀寫API, 加入一些客製化功能, 修改KL720韌體HICO Mode支援MIPI DPI和Host Mode, 配合Kneron Plus軟體加入一些測試功能    
+    Modified STM32F103 firmware logic to integrate AVS7610 controller routines, implemented I2C Slave functionality, and enabled PC host parameter adjustment for the AVS7610 via UART/I2C interfaces. 
+  - KL520/KL720 (Kneron, AI Chip, ARM Cortex-M4, CMSIS RTOS, MDK-ARM):    
+    Modified KL520 firmware Host Mode to support MIPI DPI and revised Flash R/W APIs with custom features; modified KL720 firmware HICO Mode to support MIPI DPI and Host Mode, deploying hardware test validation with Kneron Plus software.    
 
 - Projects    
   
@@ -118,22 +118,22 @@ Experience
   - [AI Camera for ADAS](https://www.kneron.com/tw/news/blog/118/)
   - [AI Camera for Electric Bus BSD](https://www.bnext.com.tw/article/62534/kneron-kl720)
 
-2011/12 - 2013/06 華晶科技 (Altek Corporation), 軟體驅動部, 韌體工程師    
+2011/12 - 2013/06 華晶科技 (Altek Corporation), Software Driver Department, Firmware Engineer  
 
 > Developed and maintained lens controller firmware and calibration for ARCtangent-A5 and MQX RTOS platform.     
->  Lens device driver (Zoom/Focus/Iris/Shutter)    
+> Lens device driver (Zoom/Focus/Iris/Shutter)    
 
 - Nikon Digital Camera COOLPIX S02
 - Nikon Digital Camera COOLPIX L28    
 
-2008/09 - 2010/07 中原大學電機工程研究所    
+2008/09 - 2010/07 中原大學 (Chung Yuan Christian University)   
 
-- 應用人工智慧和訊號處理於電力系統    
-  - 以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識[1]     
-  - 運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    
-- 碩士論文    
+- Application of Artificial Intelligence and Signal Processing in Power Systems   
+  - Established an automated feature selection and recognition framework for power quality disturbances utilizing Probabilistic Neural Networks (PNN), time-frequency analysis, and optimization algorithms[1]     
+  - Utilized Matlab/Simulink for algorithm development and implemented Maximum Power Point Tracking (MPPT) control for permanent magnet synchronous wind turbines[2]    
+- Master's Thesis    
   ["電力品質問題之特徵選取與分類," 中原大學電機工程研究所, 2010.](https://doi.org/10.6840/cycu201000431)
-- [期刊論文](https://scholar.google.com/citations?user=0Qv5ftMAAAAJ&hl=zh-TW&oi=ao)       
+- [Journal Publications](https://scholar.google.com/citations?user=0Qv5ftMAAAAJ&hl=zh-TW&oi=ao)       
   [1] C.-Y. Lee and **Y.-X. Shen**, [“Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011.](https://doi.org/10.1109/TPWRD.2011.2149547) (SCI; ISSN:0885-8977)    
   [2] C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, [“Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011.](https://doi.org/10.1016/j.eswa.2011.02.054) (SCI; ISSN:0957-4174)    
 
